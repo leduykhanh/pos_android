@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e84848</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#263238</color>
+    <color name="black">#000000</color>
+    <color name="edcolor">#f2f2f2</color>
+    <color name="algae_green">#1dc851</color>
+    <color name="darkalgae_green">#1d7851</color>
+    <color name="bowntext">#b3b3b3</color>
+
+    <color name="white">#f4f4f4</color>
+    <color name="realwhite">#FFFFFF</color>
+
+    <color name="pale_red">#e84848</color>
+    <color name="dodger_blue">#49b1f3</color>
+    <color name="lightgrey">#d3d3d3</color>
+    <color name="lightskyblue">#8087cefa</color>
+    <color name="pink">#80ffc0cb</color>
+    <color name="aquamarine">#807fffd4</color>
+    <color name="paleturquoise">#80afeeee</color>
+
+    <color name="disabled_text">#404285f4</color>
+</resources>

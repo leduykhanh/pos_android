@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transprent"
+   >
+
+    <LinearLayout
+        android:background="@drawable/rectangle_round"
+       android:layout_marginTop="124dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+
+
+
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:text="CREATE ACCOUNT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/user"
+                        style="@style/TextStyle3"
+                        android:fontFamily="monospace"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+
+                        android:hint="USERNAME"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+
+                    <EditText
+                        android:id="@+id/pass"
+                        style="@style/TextStyle3"
+                        android:fontFamily="monospace"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:hint="PASSWORD"
+                        android:inputType="textPassword"
+                        android:padding="10dp" />
+
+                    <EditText
+                        android:id="@+id/repass"
+                        style="@style/TextStyle3"
+                        android:fontFamily="monospace"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+
+                        android:hint="RETYPE PASSWORD"
+                        android:inputType="textPassword"
+                        android:padding="10dp" />
+
+
+                    <EditText
+
+                        android:id="@+id/fullname"
+                        style="@style/TextStyle3"
+                        android:fontFamily="monospace"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+
+                        android:hint="YOUR FULL NAME"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+
+                    <EditText
+
+                        android:id="@+id/email"
+                        style="@style/TextStyle3"
+                        android:fontFamily="monospace"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+
+                        android:hint="EMAIL"
+                        android:inputType="textEmailAddress"
+                        android:padding="10dp" />
+
+
+                    <EditText
+                        android:id="@+id/address"
+                        style="@style/TextStyle3"
+                        android:fontFamily="monospace"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+
+                        android:hint="ADDRESS"
+                        android:inputType="textMultiLine"
+                        android:maxLines="3"
+                        android:padding="10dp" />
+
+
+                    <EditText
+                        android:id="@+id/phone"
+                        style="@style/TextStyle3"
+                        android:fontFamily="monospace"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+
+                        android:hint="PHONE NUMBER"
+                        android:inputType="phone"
+                        android:padding="10dp" />
+
+                   <RelativeLayout
+                       android:layout_marginTop="15dp"
+                       android:layout_marginBottom="50dp"
+                       android:layout_gravity="center"
+                       android:layout_width="400dp"
+                       android:layout_height="wrap_content">
+
+                       <Button
+                           android:id="@+id/adminrd"
+                           android:background="@drawable/rectangle_round_red"
+                           android:text="Admin"
+                           android:textColor="@color/realwhite"
+                           android:layout_width="175dp"
+                           android:layout_height="45dp" />
+
+
+                       <Button
+                           android:textColor="@color/bowntext"
+                           android:id="@+id/userrd"
+                           android:layout_alignParentRight="true"
+                           android:background="@drawable/rectangle_round_browm"
+                           android:text="Employee"
+                           android:enabled="false"
+                           android:layout_width="175dp"
+                           android:layout_height="45dp" />
+
+                   </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/createbtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@color/pale_red"
+        android:fontFamily="sans-serif"
+        android:text="CONFIRM"
+        android:textColor="@color/realwhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="289dp"
+        android:layout_marginStart="289dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2" />
+
+    <RelativeLayout
+        android:id="@+id/close"
+        android:background="@color/colorAccent"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/createbtn"
+        android:layout_alignEnd="@+id/createbtn"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp">
+
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/layer_9_copy"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

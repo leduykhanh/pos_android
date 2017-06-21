@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transprent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle_round"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="CREATE ITEM"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/desed"
+                style="@style/TextStyle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="ITEM DESCRIPTION"
+                android:inputType="textMultiLine"
+                android:maxLines="5"
+                android:paddingRight="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="BRAND"
+                android:textColor="@color/bowntext" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:spinnerMode="dropdown" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="MODEL"
+                android:textColor="@color/bowntext" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp">
+
+                <Spinner
+
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:spinnerMode="dropdown" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="CATEGORY"
+                android:textColor="@color/bowntext" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp">
+
+                <Spinner
+
+                    android:id="@+id/spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:spinnerMode="dropdown" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <EditText
+                android:id="@+id/priceed"
+                style="@style/TextStyle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="PRICE"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/mined"
+                style="@style/TextStyle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="MINIMUM QTY"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/baseed"
+                style="@style/TextStyle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="BASE QTY"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ATTACH SERIAL NUMBER"
+                    android:textColor="@color/bowntext" />
+
+                <Switch
+                    android:id="@+id/snoch"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="150dp" />
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/serialed"
+                    style="@style/TextStyle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_toLeftOf="@+id/serialbtn"
+                    android:layout_toStartOf="@+id/serialbtn"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:hint="SERIAL NUMBER"
+                    android:inputType="textPersonName" />
+
+                <Button
+
+                    android:id="@+id/serialbtn"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/rectangle_round_black"
+                    android:text="Generate"
+                    android:textColor="@color/realwhite" />
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/createbtn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/linearLayout2"
+        android:layout_marginBottom="230dp"
+        android:layout_marginLeft="336dp"
+        android:layout_marginStart="336dp"
+        android:background="@color/pale_red"
+        android:fontFamily="sans-serif"
+        android:text="DONE"
+        android:textColor="@color/realwhite"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/createbtn"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/createbtn"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/colorAccent">
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/layer_9_copy" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

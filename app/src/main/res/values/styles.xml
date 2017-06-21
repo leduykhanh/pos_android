@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppThemedialg" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+    <style name="TransparentTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+
+    <style name="TextStyle2">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#484848</item>
+        <item name="android:lineSpacingExtra">-6sp</item>
+    </style>
+
+    <style name="TextStyle3">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:lineSpacingExtra">-1sp</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#c0c0c0</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+</resources>

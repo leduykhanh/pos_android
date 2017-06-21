@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/brand"
+        android:orderInCategory="100"
+        android:title="ADD BRAND"
+        app:showAsAction="never" />
+
+    <!--<item-->
+        <!--android:id="@+id/model"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="ADD MODEL"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/cartegory"
+        android:orderInCategory="100"
+        android:title="ADD CATEGORY"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/suppiler"
+        android:orderInCategory="100"
+        android:title="ADD SUPPLIER"
+        app:showAsAction="never" />
+
+
+</menu>

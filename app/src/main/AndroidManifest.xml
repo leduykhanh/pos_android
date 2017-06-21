@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gg.pos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name=".Myapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        >
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Userdetail"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Inventory"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Brand"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Model"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Category"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Suppiler"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Addbarcode"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Createuser"
+            android:screenOrientation="landscape"
+            android:theme="@style/TransparentTheme" />
+
+        <activity
+            android:name=".Addband"
+            android:screenOrientation="landscape"
+            android:theme="@style/TransparentTheme" />
+
+        <activity
+            android:name=".Addmodel"
+            android:screenOrientation="landscape"
+            android:theme="@style/TransparentTheme" />
+
+        <activity
+            android:name=".Addcategory"
+            android:screenOrientation="landscape"
+            android:theme="@style/TransparentTheme" />
+
+        <activity
+            android:name=".Addsupplier"
+            android:screenOrientation="landscape"
+            android:theme="@style/TransparentTheme" />
+
+        <activity
+            android:name=".Printbarcode"
+            android:screenOrientation="landscape"
+            android:theme="@style/TransparentTheme" />
+
+        <activity
+            android:name=".Addbarcodeforuncheck"
+            android:theme="@style/TransparentTheme" />
+
+        <activity
+            android:name=".Addsupplierinstock"
+            android:theme="@style/TransparentTheme" />
+
+        <activity
+            android:name=".Additem"
+            android:theme="@style/TransparentTheme" />
+        <activity android:name=".CommonActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

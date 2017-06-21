@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="TextStyle2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#484848</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:lineSpacingExtra">-6sp</item>
+    </style>
+
+    <style name="TextStyle3">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#b3b3b3</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:lineSpacingExtra">-1sp</item>
+    </style>
+</resources>

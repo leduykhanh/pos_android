@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/transprent" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:background="@drawable/rectangle_round"
+        android:orientation="vertical"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:id="@+id/alertTitle"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:text="ADD BRAND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="80dp"
+            android:padding="10dp"
+            style="@style/TextStyle3"
+            android:id="@+id/branded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="16sp"
+            android:inputType="textPersonName"
+            android:hint="ENTER BRAND NAME"
+            android:fontFamily="sans-serif" />
+
+
+        </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/createbtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="@color/pale_red"
+        android:fontFamily="sans-serif"
+        android:text="ADD"
+        android:textColor="@color/realwhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="151dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginStart="320dp"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2" />
+
+    <RelativeLayout
+        android:id="@+id/close"
+        android:background="@color/colorAccent"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="165dp"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_alignRight="@+id/createbtn"
+        android:layout_alignEnd="@+id/createbtn">
+
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/layer_9_copy"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
